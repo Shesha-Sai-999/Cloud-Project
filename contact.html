@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Sunrise Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Sunrise<span>Adventures</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Get In Touch</h1>
+                <p>We're here to help you plan your perfect adventure. Contact us with any questions or to start planning your journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Let's Start Your Adventure</h2>
+                    <p>Our travel experts are ready to help you create unforgettable memories. Reach out to us through any of the following methods:</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📞</div>
+                            <div class="method-info">
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <span>Mon-Fri: 9AM-6PM EST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">✉️</div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>info@sunriseadventures.com</p>
+                                <span>We respond within 24 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">💬</div>
+                            <div class="method-info">
+                                <h3>Live Chat</h3>
+                                <p>Available on our website</p>
+                                <span>Mon-Fri: 9AM-8PM EST</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🏢</div>
+                            <div class="method-info">
+                                <h3>Office</h3>
+                                <p>123 Adventure Street</p>
+                                <p>Travel City, TC 12345</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Follow Our Adventures</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <span>Facebook</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span>Instagram</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="booking">Tour Booking</option>
+                                    <option value="custom">Custom Tour Request</option>
+                                    <option value="group">Group Travel</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="destination">Destination Interest</label>
+                                <select id="destination" name="destination">
+                                    <option value="">Select destination</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="asia">Asia</option>
+                                    <option value="america">Americas</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="oceania">Oceania</option>
+                                    <option value="multiple">Multiple Destinations</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your travel plans, questions, or how we can help you..."></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="newsletter" checked>
+                                    <span class="checkmark"></span>
+                                    Subscribe to our newsletter for travel inspiration and exclusive deals
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about our services and booking process</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How far in advance should I book my tour?</h3>
+                    <p>We recommend booking at least 3-6 months in advance for international tours, especially during peak seasons. For popular destinations like Japan during cherry blossom season, booking 6-12 months ahead is advisable.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>What is included in your tour packages?</h3>
+                    <p>Our packages typically include accommodation, guided tours, transportation between destinations, some meals, and activities mentioned in the itinerary. Flights, travel insurance, and personal expenses are usually additional.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can you customize tours for special requirements?</h3>
+                    <p>Absolutely! We specialize in creating custom itineraries tailored to your preferences, dietary needs, mobility requirements, and special interests. Contact
